@@ -46,6 +46,10 @@
   font-size: 1.05rem;
 }
 
+.content strong {
+  color: var(--text);
+}
+
 .categoryBadge {
   font-family: var(--mono);
   font-size: 0.7rem;
