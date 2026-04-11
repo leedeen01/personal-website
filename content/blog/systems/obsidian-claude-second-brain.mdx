@@ -6,7 +6,7 @@ summary: "How pairing Obsidian's local knowledge graph with Claude Code's AI cap
 tags: ["Second Brain", "Obsidian", "AI", "Productivity", "Learning"]
 ---
 
-You read something valuable. You save it. Three months later, you can't find it — or worse, you forget it existed. **Most note-taking systems are just digital graveyards.**
+You read something valuable. You save it. Three months later, you can't find it, or worse, you forget it existed. **Most note-taking systems are just digital graveyards.**
 
 <br/>
 
@@ -14,7 +14,7 @@ The Second Brain philosophy, popularised by Tiago Forte, offers a better model: 
 
 <br/>
 
-But even a well-organized vault has friction — searching, linking ideas, writing up notes, surfacing the right knowledge at the right time. What if an AI lived inside your vault and did that work with you? That's exactly what happens when you pair **[Obsidian](https://obsidian.md)** with **[Claude Code](https://claude.ai/code)**.
+But even a well-organized vault has friction: searching, linking ideas, writing up notes, surfacing the right knowledge at the right time. What if an AI lived inside your vault and did that work with you? That's exactly what happens when you pair **[Obsidian](https://obsidian.md)** with **[Claude Code](https://claude.ai/code)**.
 
 <br/>
 
@@ -24,17 +24,17 @@ But even a well-organized vault has friction — searching, linking ideas, writi
 
 ## // What Is a Second Brain?
 
-A Second Brain is a digital commonplace book — a single, searchable repository for notes, ideas, research, and insights.
+A Second Brain is a digital commonplace book: a single, searchable repository for notes, ideas, research, and insights.
 
-> **"Your brain is for having ideas, not for holding them."** — David Allen
-
-<br/>
-
-The core workflow is the **CODE framework**: **Capture** what resonates, **Organize** by actionability (not by source), **Distill** down to the essence, and **Express** by creating something with it. The goal is never to hoard knowledge — it's to think and build more effectively.
+> **"Your brain is for having ideas, not for holding them."** - David Allen
 
 <br/>
 
-This is more than a personal productivity hack. AI researcher **Andrej Karpathy** — co-founder of OpenAI and former AI lead at Tesla — [proposed a nearly identical pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) for building knowledge systems with LLMs. He describes a three-layer architecture: **raw sources** (documents you feed in), a **wiki** (LLM-maintained markdown files that grow richer with every new source), and a **schema** (instructions that define how the AI should structure and maintain the knowledge). The core operations — ingest new material, query what you know, lint for gaps and contradictions — map almost exactly onto how a Second Brain should work. When someone like Karpathy is converging on the same pattern independently, it's a signal the idea is structurally sound.
+The core workflow is the **CODE framework**: **Capture** what resonates, **Organize** by actionability (not by source), **Distill** down to the essence, and **Express** by creating something with it. The goal is never to hoard knowledge, it's to think and build more effectively.
+
+<br/>
+
+This is more than a personal productivity hack. AI researcher **Andrej Karpathy**, co-founder of OpenAI and former AI lead at Tesla, [proposed a nearly identical pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) for building knowledge systems with LLMs. He describes a three-layer architecture: **raw sources** (documents you feed in), a **wiki** (LLM-maintained markdown files that grow richer with every new source), and a **schema** (instructions that define how the AI should structure and maintain the knowledge). The core operations (ingest new material, query what you know, lint for gaps and contradictions) map almost exactly onto how a Second Brain should work. When someone like Karpathy is converging on the same pattern independently, it's a signal the idea is structurally sound.
 
 <br/>
 
@@ -48,23 +48,23 @@ Two pieces of software. Zero subscriptions beyond Claude Pro. Everything local.
 
 <br/>
 
-### 1. Obsidian — Your Local Knowledge Graph
+### 1. Obsidian: Your Local Knowledge Graph
 
-[Obsidian](https://obsidian.md) is a **local-first Markdown editor** built around bidirectional linking. Every note lives as a plain `.md` file on your disk — no proprietary format, no cloud lock-in. Its graph view visualises how your ideas connect, and its plugin ecosystem (Dataview, Templater, Tasks, and more) turns a flat folder of notes into a structured, queryable knowledge base.
+[Obsidian](https://obsidian.md) is a **local-first Markdown editor** built around bidirectional linking. Every note lives as a plain `.md` file on your disk, with no proprietary format, no cloud lock-in. Its graph view visualises how your ideas connect, and its plugin ecosystem (Dataview, Templater, Tasks, and more) turns a flat folder of notes into a structured, queryable knowledge base.
 
 ![Obsidian vault with atomic notes and PARA folder structure](/assets/blog/obsidian-claude-second-brain/obsidian%20home.png)
 
-Every note you see in that sidebar is a single atomic concept — one idea, one file. The left panel shows the PARA folder structure; the right shows a fully formatted note with frontmatter, wikilinks, and topic tags. This is what a vault looks like after a few months of consistent capture.
+Every note you see in that sidebar is a single atomic concept: one idea, one file. The left panel shows the PARA folder structure; the right shows a fully formatted note with frontmatter, wikilinks, and topic tags. This is what a vault looks like after a few months of consistent capture.
 
 <br/>
 
-But the real picture of a growing Second Brain isn't a file list — it's the graph. Every node is a note. Every edge is a wikilink. Watch what happens as knowledge accumulates:
+But the real picture of a growing Second Brain isn't a file list, it's the graph. Every node is a note. Every edge is a wikilink. Watch what happens as knowledge accumulates:
 
 <video autoPlay loop muted playsInline style={{ width: "100%", borderRadius: "8px", margin: "1rem 0" }}>
   <source src="/assets/blog/obsidian-claude-second-brain/Obsidian%20Graph.mp4" type="video/mp4" />
 </video>
 
-Each new note you add doesn't just sit in a folder — it **connects**. A note on distributed systems links to your notes on databases, networking, and system design. A note from a lecture links back to a research paper you ingested last semester. Over time the graph stops looking sparse and starts looking like a web of understanding — your understanding, built up one capture at a time. This is what compound knowledge looks like.
+Each new note you add doesn't just sit in a folder, it **connects**. A note on distributed systems links to your notes on databases, networking, and system design. A note from a lecture links back to a research paper you ingested last semester. Over time the graph stops looking sparse and starts looking like a web of understanding, your understanding, built up one capture at a time. This is what compound knowledge looks like.
 
 <ComparisonGrid>
   <Card label="Traditional Note Apps">
@@ -75,9 +75,9 @@ Each new note you add doesn't just sit in a folder — it **connects**. A note o
   </Card>
 </ComparisonGrid>
 
-### 2. Claude Code — AI That Reads Your Vault
+### 2. Claude Code: AI That Reads Your Vault
 
-[Claude Code](https://claude.ai/code) is Anthropic's agentic CLI — an AI that can read, write, and reason across your entire codebase or, in this case, your entire vault. Unlike a chatbot you paste notes into, Claude Code runs **inside** your vault directory. It can read files, follow wikilinks, search for patterns, write new notes in your exact format, and update indexes — all through natural language commands.
+[Claude Code](https://claude.ai/code) is Anthropic's agentic CLI, an AI that can read, write, and reason across your entire codebase or, in this case, your entire vault. Unlike a chatbot you paste notes into, Claude Code runs **inside** your vault directory. It can read files, follow wikilinks, search for patterns, write new notes in your exact format, and update indexes, all through natural language commands.
 
 <ComparisonGrid>
   <Card label="Chatbot + Copy-Paste">
@@ -88,9 +88,9 @@ Each new note you add doesn't just sit in a folder — it **connects**. A note o
   </Card>
 </ComparisonGrid>
 
-### 3. Together — A Thinking Partner, Not Just a Storage System
+### 3. Together: A Thinking Partner, Not Just a Storage System
 
-The combination is greater than the sum of its parts. Obsidian provides the **structure and permanence**; Claude Code provides the **intelligence and velocity**. You capture raw ideas into an inbox, and Claude processes, links, and files them into atomic notes — following your exact conventions. You ask a question, and Claude navigates the vault graph to synthesize an answer *from your own knowledge*, not from generic internet data.
+The combination is greater than the sum of its parts. Obsidian provides the **structure and permanence**; Claude Code provides the **intelligence and velocity**. You capture raw ideas into an inbox, and Claude processes, links, and files them into atomic notes, following your exact conventions. You ask a question, and Claude navigates the vault graph to synthesize an answer *from your own knowledge*, not from generic internet data.
 
 <ComparisonGrid>
   <Card label="Vault Without AI">
@@ -107,7 +107,7 @@ The combination is greater than the sum of its parts. Obsidian provides the **st
 
 <br/>
 
-## // How They Work Together — Real Examples
+## // How They Work Together: Real Examples
 
 <br/>
 
@@ -117,18 +117,18 @@ Here are three concrete workflows that show the combination in practice.
   SimmerCard: represents a concept or project "simmering" in the background.
 */}
 <SimmerCard title="Inbox Processing" progress={90}>
-  **The workflow:** Paste a raw article, lecture notes, or a PDF into `00_Inbox/`. Run `/organize` in Claude Code. Claude reads the source, extracts key concepts, writes atomic notes in `30_Resources/` using your frontmatter template, adds wikilinks to related notes, and updates the topic index — all in one pass.
+  **The workflow:** Paste a raw article, lecture notes, or a PDF into `00_Inbox/`. Run `/organize` in Claude Code. Claude reads the source, extracts key concepts, writes atomic notes in `30_Resources/` using your frontmatter template, adds wikilinks to related notes, and updates the topic index, all in one pass.
 </SimmerCard>
 
 <SimmerCard title="Knowledge Querying" progress={85}>
-  **The workflow:** Ask Claude "what do I know about distributed consensus?" It reads the topic index, navigates to relevant notes, follows wikilinks one hop deep, and synthesizes a cited answer — sourced entirely from *your* vault. You can then file that synthesis back as a new atomic note.
+  **The workflow:** Ask Claude "what do I know about distributed consensus?" It reads the topic index, navigates to relevant notes, follows wikilinks one hop deep, and synthesizes a cited answer, sourced entirely from *your* vault. You can then file that synthesis back as a new atomic note.
 </SimmerCard>
 
 <SimmerCard title="Slow Burn Project Work" progress={75}>
   **The workflow:** You're writing a blog post or preparing for an interview. Tell Claude the project context. It scans your vault for relevant atomic notes, assembles a project brief in `10_Projects/`, and flags knowledge gaps you should fill. When you sit down to write, 80% of the research is already done.
 </SimmerCard>
 
-The compound effect here mirrors the Second Brain's **Slow Burn** principle — you're constantly feeding your vault with small captures, and Claude ensures every capture is processed, linked, and ready to use when a project demands it.
+The compound effect here mirrors the Second Brain's **Slow Burn** principle: you're constantly feeding your vault with small captures, and Claude ensures every capture is processed, linked, and ready to use when a project demands it.
 
 <br/>
 
@@ -136,16 +136,16 @@ The compound effect here mirrors the Second Brain's **Slow Burn** principle — 
 
 <br/>
 
-## // Benefits — Why This Combination Works
+## // Benefits: Why This Combination Works
 
 <br/>
 
 The Second Brain's CODE framework maps directly onto what Obsidian + Claude Code delivers:
 
-- **Capture** — Obsidian's inbox gives you a zero-friction landing zone. Nothing is lost.
-- **Organize** — Claude processes raw notes into PARA-structured atomic notes automatically, following your exact template and tagging system.
-- **Distill** — Claude's synthesis queries surface the essence of what you know, on demand, cited from your own notes.
-- **Express** — Claude helps draft blogs, summaries, and project briefs directly from your vault's accumulated knowledge.
+- **Capture**: Obsidian's inbox gives you a zero-friction landing zone. Nothing is lost.
+- **Organize**: Claude processes raw notes into PARA-structured atomic notes automatically, following your exact template and tagging system.
+- **Distill**: Claude's synthesis queries surface the essence of what you know, on demand, cited from your own notes.
+- **Express**: Claude helps draft blogs, summaries, and project briefs directly from your vault's accumulated knowledge.
 
 The result is a system where **your knowledge compounds**. Every note you add makes the vault more valuable. Every query Claude runs teaches you what you already know but haven't connected yet.
 
@@ -159,15 +159,15 @@ The result is a system where **your knowledge compounds**. Every note you add ma
 
 <br/>
 
-This combination is especially powerful if you're a student or early-career professional — where the surface area of things to learn is enormous and retention is everything.
+This combination is especially powerful if you're a student or early-career professional, where the surface area of things to learn is enormous and retention is everything.
 
-**Academic study:** After every lecture, drop your rough notes into the inbox. Claude processes them into atomic notes, links them to prior concepts, and flags contradictions with what you already know. Over a semester, your vault becomes a connected map of the entire subject — not a pile of lecture slides.
+**Academic study:** After every lecture, drop your rough notes into the inbox. Claude processes them into atomic notes, links them to prior concepts, and flags contradictions with what you already know. Over a semester, your vault becomes a connected map of the entire subject, not a pile of lecture slides.
 
-**Technical skill-building:** Learning a new framework or language? Every time you solve a problem or read a doc, capture it. Claude organizes your learnings into permanent notes in `30_Resources/Systems/`. Before a project or interview, query the vault — your past self has already done the research.
+**Technical skill-building:** Learning a new framework or language? Every time you solve a problem or read a doc, capture it. Claude organizes your learnings into permanent notes in `30_Resources/Systems/`. Before a project or interview, query the vault, your past self has already done the research.
 
-**Career and interview prep:** Notes from mock interviews, feedback from mentors, system design patterns — all captured, organized, and queryable. Ask Claude to synthesize "what do I know about behavioral interview answers" before your next round.
+**Career and interview prep:** Notes from mock interviews, feedback from mentors, system design patterns, all captured, organized, and queryable. Ask Claude to synthesize "what do I know about behavioral interview answers" before your next round.
 
-**Writing and communication:** Blogs, technical write-ups, cover letters — Claude can draft these by pulling from your vault's existing notes. Your writing becomes faster and more original because it's grounded in *your* thinking, not generic templates.
+**Writing and communication:** Blogs, technical write-ups, cover letters: Claude can draft these by pulling from your vault's existing notes. Your writing becomes faster and more original because it's grounded in *your* thinking, not generic templates.
 
 <br/>
 
@@ -179,7 +179,7 @@ This combination is especially powerful if you're a student or early-career prof
 
 <br/>
 
-Here's what the actual setup looks like for me — a CS student building toward a full-time engineering career.
+Here's what the actual setup looks like for me, a CS student building toward a full-time engineering career.
 
 <br/>
 
@@ -189,7 +189,7 @@ My vault follows a **PARA-inspired layout**, adapted for a knowledge base rather
 
 ```
 Vault/
-├── 00_Inbox/        ← Raw notes, clips, PDFs — the landing zone
+├── 00_Inbox/        ← Raw notes, clips, PDFs, the landing zone
 ├── 10_Projects/     ← Active work; one folder per project with a LOG.md
 ├── 20_Areas/        ← Daily notes, career planning, ongoing responsibilities
 ├── 30_Resources/    ← Permanent atomic notes; one concept per file
@@ -200,29 +200,29 @@ Vault/
 └── 50_Topics/       ← Tag index; Claude uses this to navigate the graph
 ```
 
-Everything in `30_Resources/` is a single atomic note — one concept, one file. No subfolders. No giant documents. This flat structure is what makes Claude's navigation reliable: it reads the topic index, follows the right tag, finds the notes, and traverses wikilinks one hop at a time.
+Everything in `30_Resources/` is a single atomic note: one concept, one file. No subfolders. No giant documents. This flat structure is what makes Claude's navigation reliable: it reads the topic index, follows the right tag, finds the notes, and traverses wikilinks one hop at a time.
 
 <br/>
 
 ### The Four Commands I Use Daily
 
-These are custom **slash commands** wired into Claude Code via my `CLAUDE.md` — instructions that tell Claude exactly how to behave inside the vault.
+These are custom **slash commands** wired into Claude Code via my `CLAUDE.md`, instructions that tell Claude exactly how to behave inside the vault.
 
 <br/>
 
-**`/organize`** — Process raw inbox notes into atomic notes. I drop a rough capture into `00_Inbox/`, run `/organize`, and Claude extracts key concepts, writes properly formatted atomic notes into `30_Resources/`, adds wikilinks to related notes, and updates the topic index. What would take me 20 minutes manually takes Claude about 30 seconds.
+**`/organize`**: Process raw inbox notes into atomic notes. I drop a rough capture into `00_Inbox/`, run `/organize`, and Claude extracts key concepts, writes properly formatted atomic notes into `30_Resources/`, adds wikilinks to related notes, and updates the topic index. What would take me 20 minutes manually takes Claude about 30 seconds.
 
-**`/ingest`** — Integrate an external source (article, paper, web clip) into the vault. Claude writes a source-summary note to `40_Archive/Research/`, updates existing atomic notes with new information, and flags any contradictions with what the vault already knows. This is the Karpathy "ingest" operation applied to my personal knowledge base.
+**`/ingest`**: Integrate an external source (article, paper, web clip) into the vault. Claude writes a source-summary note to `40_Archive/Research/`, updates existing atomic notes with new information, and flags any contradictions with what the vault already knows. This is the Karpathy "ingest" operation applied to my personal knowledge base.
 
-**`/query`** — Ask a question and get an answer sourced entirely from my own notes. Claude navigates the topic index, reads relevant atomic notes, follows wikilinks, and synthesizes a cited response. I use this before interviews, before writing, and whenever I want to know what I actually know about a topic — not what the internet says.
+**`/query`**: Ask a question and get an answer sourced entirely from my own notes. Claude navigates the topic index, reads relevant atomic notes, follows wikilinks, and synthesizes a cited response. I use this before interviews, before writing, and whenever I want to know what I actually know about a topic, not what the internet says.
 
-**`/lint`** — Health-check the vault. Claude scans for orphaned notes with no inbound links, topic tags that reference missing files, frontmatter inconsistencies, and duplicate concepts. It surfaces a triage table and asks which issues to fix. This keeps the vault from decaying into a mess over time.
+**`/lint`**: Health-check the vault. Claude scans for orphaned notes with no inbound links, topic tags that reference missing files, frontmatter inconsistencies, and duplicate concepts. It surfaces a triage table and asks which issues to fix. This keeps the vault from decaying into a mess over time.
 
 <br/>
 
 ### The Obsidian Web Clipper + /ingest Workflow
 
-One of the most useful capture workflows starts in the browser. The **[Obsidian Web Clipper](https://obsidian.md/clipper)** is a browser extension that lets you clip any web page — an article, a documentation page, a blog post, a research paper — directly into your vault's inbox as a clean Markdown file. One click, no copy-pasting.
+One of the most useful capture workflows starts in the browser. The **[Obsidian Web Clipper](https://obsidian.md/clipper)** is a browser extension that lets you clip any web page, say an article, a documentation page, a blog post, or a research paper, directly into your vault's inbox as a clean Markdown file. One click, no copy-pasting.
 
 From there, I run `/ingest` in Claude Code. Claude reads the clipped article, extracts the key ideas, cross-references them against my existing atomic notes, writes a source summary into `40_Archive/Research/`, and updates any relevant notes in `30_Resources/` with the new information and a backlink to the source. The clip goes from browser → inbox → integrated knowledge in under a minute.
 
@@ -234,7 +234,7 @@ This is the full capture-to-integration pipeline: **Web Clipper captures it, `/i
 
 <br/>
 
-## // Quick Guide — Set It Up Yourself
+## // Quick Guide: Set It Up Yourself
 
 <br/>
 
@@ -242,46 +242,46 @@ Getting this running takes about 15 minutes. Here's exactly how.
 
 <br/>
 
-**Step 1 — Download the tools**
+**Step 1: Download the tools**
 
-- **Obsidian:** [obsidian.md](https://obsidian.md) — free download, available on Windows, Mac, Linux, iOS, and Android.
-- **Claude Code:** [claude.ai/code](https://claude.ai/code) — requires a Claude Pro subscription. Install it via npm: `npm install -g @anthropic-ai/claude-code`
+- **Obsidian:** [obsidian.md](https://obsidian.md), free download, available on Windows, Mac, Linux, iOS, and Android.
+- **Claude Code:** [claude.ai/code](https://claude.ai/code), requires a Claude Pro subscription. Install it via npm: `npm install -g @anthropic-ai/claude-code`
 
 <br/>
 
-**Step 2 — Create your vault**
+**Step 2: Create your vault**
 
 Open Obsidian. You'll be greeted with this screen:
 
-![Obsidian startup — create a new vault](/assets/blog/obsidian-claude-second-brain/obsidian%20vault%20creation.png)
+![Obsidian startup: create a new vault](/assets/blog/obsidian-claude-second-brain/obsidian%20vault%20creation.png)
 
-Click **Create new vault**, give it a name, and pick a location on your local disk. Inside, create the folder structure that matches how you want to organise your knowledge — or start with the PARA layout above (`00_Inbox`, `10_Projects`, `20_Areas`, `30_Resources`, `40_Archive`). Once set up, your vault will look something like this — a clean sidebar of folders and atomic notes, ready to fill:
+Click **Create new vault**, give it a name, and pick a location on your local disk. Inside, create the folder structure that matches how you want to organise your knowledge, or start with the PARA layout above (`00_Inbox`, `10_Projects`, `20_Areas`, `30_Resources`, `40_Archive`). Once set up, your vault will look something like this: a clean sidebar of folders and atomic notes, ready to fill:
 
 ![Obsidian vault interface with PARA structure](/assets/blog/obsidian-claude-second-brain/obsidian%20home.png)
 
 <br/>
 
-**Step 3 — Open your terminal in the vault**
+**Step 3: Open your terminal in the vault**
 
 Navigate to your vault folder in a terminal and run `claude` to launch Claude Code:
 
 ![Claude Code running in the vault terminal](/assets/blog/obsidian-claude-second-brain/terminal.png)
 
-Claude Code starts at `~/Documents/Vault` — your vault directory — with full read/write access to every file inside. This is the connection point between your knowledge base and the AI.
+Claude Code starts at `~/Documents/Vault`, your vault directory, with full read/write access to every file inside. This is the connection point between your knowledge base and the AI.
 
 <br/>
 
-**Step 4 — Give Claude its instructions via the Karpathy pattern**
+**Step 4: Give Claude its instructions via the Karpathy pattern**
 
-This is the key step. Andrej Karpathy's [LLM wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) describes the exact pattern we're implementing — raw sources, a maintained wiki, and a schema document that tells the LLM how to behave. Open the gist, copy the full content, and paste it into Claude Code with a message like:
+This is the key step. Andrej Karpathy's [LLM wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) describes the exact pattern we're implementing: raw sources, a maintained wiki, and a schema document that tells the LLM how to behave. Open the gist, copy the full content, and paste it into Claude Code with a message like:
 
-> *"I want to implement this pattern in my Obsidian vault. Here's the gist — please read it and help me set up a CLAUDE.md file that wires up ingest, query, and lint as slash commands for my vault structure."*
+> *"I want to implement this pattern in my Obsidian vault. Here's the gist, please read it and help me set up a CLAUDE.md file that wires up ingest, query, and lint as slash commands for my vault structure."*
 
 Claude will read the pattern and scaffold the instructions for your specific setup.
 
 <br/>
 
-> **Tip:** Before Claude writes anything, tell it how you plan to use the vault. Are you a student tracking lecture notes? A developer capturing technical learnings? A writer building a research library? The more context you give, the better Claude will tailor the `CLAUDE.md` instructions — the schema that governs everything. A good schema is the difference between a generic note-taker and a Second Brain that actually thinks like you.
+> **Tip:** Before Claude writes anything, tell it how you plan to use the vault. Are you a student tracking lecture notes? A developer capturing technical learnings? A writer building a research library? The more context you give, the better Claude will tailor the `CLAUDE.md` instructions, the schema that governs everything. A good schema is the difference between a generic note-taker and a Second Brain that actually thinks like you.
 
 <br/>
 
@@ -293,11 +293,11 @@ Claude will read the pattern and scaffold the instructions for your specific set
 
 <br/>
 
-Most people treat their notes as a filing cabinet — things go in, rarely come out. The Second Brain flips this: knowledge is meant to circulate, to compound, to produce. Obsidian gives you the structure to make that happen. Claude Code gives you the intelligence to make it effortless.
+Most people treat their notes as a filing cabinet, things go in, rarely come out. The Second Brain flips this: knowledge is meant to circulate, to compound, to produce. Obsidian gives you the structure to make that happen. Claude Code gives you the intelligence to make it effortless.
 
 <br/>
 
-The deeper shift isn't about productivity tools — it's about your relationship with your own thinking. When your vault is well-organized and AI-navigable, you stop feeling buried under information and start feeling like you actually *know* things. The right idea surfaces at the right time.
+The deeper shift isn't about productivity tools, it's about your relationship with your own thinking. When your vault is well-organized and AI-navigable, you stop feeling buried under information and start feeling like you actually *know* things. The right idea surfaces at the right time.
 
 <br/>
 
@@ -311,7 +311,7 @@ The deeper shift isn't about productivity tools — it's about your relationship
 
 ### References & Further Reading
 * **Second Brain Overview:** [How to Organise Your Life](https://leedeen.me/blog/how-to-organize-your-life)
-* **Core Book:** [Building a Second Brain — Tiago Forte](https://www.buildingasecondbrain.com/)
+* **Core Book:** [Building a Second Brain by Tiago Forte](https://www.buildingasecondbrain.com/)
 * **Karpathy's LLM Wiki Pattern:** [gist.github.com/karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 * **Ali Abdaal:** [How to Organise Your Life - Building a Second Brain](https://www.youtube.com/watch?v=K-ssUVyfn5g)
 

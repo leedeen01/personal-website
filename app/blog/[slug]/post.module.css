@@ -59,6 +59,27 @@
 .systems { color: #c4a8f5; }
 .tech { color: var(--accent); }
 
+/* Images inside blog content */
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 6px;
+}
+
+/* Links inside blog content */
+.content a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(240, 184, 110, 0.35);
+  transition: border-color 0.2s;
+}
+
+.content a:hover {
+  border-bottom-color: var(--accent);
+}
+
 /* MDX Component Styles */
 .heading2 {
   color: var(--accent);
