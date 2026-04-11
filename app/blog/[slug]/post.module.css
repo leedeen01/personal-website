@@ -47,7 +47,7 @@
 }
 
 .content strong {
-  color: var(--text);
+  color: #84ddb4;
 }
 
 .categoryBadge {
@@ -74,14 +74,14 @@
 
 /* Links inside blog content */
 .content a {
-  color: var(--accent);
+  color: #7eb8f7;
   text-decoration: none;
-  border-bottom: 1px solid rgba(240, 184, 110, 0.35);
+  border-bottom: 1px solid rgba(126, 184, 247, 0.35);
   transition: border-color 0.2s;
 }
 
 .content a:hover {
-  border-bottom-color: var(--accent);
+  border-bottom-color: #7eb8f7;
 }
 
 /* MDX Component Styles */
