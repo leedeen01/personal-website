@@ -1317,11 +1317,35 @@ footer {
     gap: 1.5rem;
     text-align: center;
   }
-  
+
   .footer-nav {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
+  }
+
+  /* Blog list: allow project name + tag to wrap on narrow screens */
+  .project-name {
+    font-size: 1.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .tag-systems,
+  .tag-tech {
+    margin-left: 0;
+  }
+
+  /* Blog tabs: tighten gap on small screens */
+  .blog-tabs {
+    gap: 1.25rem;
+  }
+
+  /* Comparison grid in MDX components: single column */
+  .comparison-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1383,6 +1407,7 @@ footer {
   grid-template-columns: 1fr 1fr; /* This creates the side-by-side look */
   gap: 1.5rem;
   margin: 2rem 0;
+  overflow-x: hidden;
 }
 
 .comp-card {

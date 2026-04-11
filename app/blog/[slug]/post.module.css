@@ -29,6 +29,7 @@
   display: flex;
   gap: 0.5rem;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .tag {
@@ -64,9 +65,11 @@
 .systems { color: #c4a8f5; }
 .tech { color: var(--accent); }
 
-/* Images inside blog content */
-.content img {
+/* Images and videos inside blog content */
+.content img,
+.content video {
   max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   margin: 2rem auto;
@@ -207,6 +210,31 @@
 /* Responsive Fixes */
 @media (max-width: 768px) {
   .relatedGrid { grid-template-columns: 1fr; }
-  .article { padding-top: 6rem; }
+  .article { padding-top: 6rem; padding-left: 1.25rem; padding-right: 1.25rem; }
   .relatedCard { padding: 1.5rem; }
+
+  .content {
+    font-size: 0.95rem;
+  }
+
+  .heading2 {
+    font-size: 1.4rem;
+  }
+
+  /* Prevent code blocks from causing horizontal scroll */
+  .content pre {
+    overflow-x: auto;
+    max-width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .content code {
+    word-break: break-word;
+  }
+
+  .content table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+  }
 }
