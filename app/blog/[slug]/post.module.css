@@ -47,7 +47,8 @@
 }
 
 .content strong {
-  color: #84ddb4;
+  color: #ffffff;
+  font-weight: 800;
 }
 
 .categoryBadge {
