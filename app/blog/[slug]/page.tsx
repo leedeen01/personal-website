@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   try {
     const post = getPostBySlug(slug);
     return {
-      title: `${post.meta.title} — Lee De En`,
+      title: `${post.meta.title}, Lee De En`,
       description: (post.meta.summary as string) || (post.meta.description as string) || "",
     };
   } catch {

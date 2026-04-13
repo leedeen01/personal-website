@@ -100,7 +100,7 @@ export default function Home() {
             <p>
               Through hands-on projects I&apos;ve worked across
               <em> web development</em>, <em> machine learning</em>, and
-              <em> cloud solutions</em> — turning complex challenges into clean,
+              <em> cloud solutions</em>, turning complex challenges into clean,
               functional software.
             </p>
             <p>
@@ -327,7 +327,7 @@ export default function Home() {
                     <li>
                       <strong>National Contribution:</strong> Supported
                       logistics and preparation for the{" "}
-                      <strong>National Day Parade (NDP) 2022</strong>.
+                      <strong>National Day Parade 2022</strong>.
                     </li>
                   </ul>
                   <div
@@ -363,7 +363,7 @@ export default function Home() {
                       className="btn-ghost"
                       style={{ fontSize: "0.65rem", padding: "0.5rem 1rem" }}
                     >
-                      <span>📄 NDP Certificate</span>
+                      <span>📄 ORD Certificate</span>
                     </a>
                   </div>
                 </div>
@@ -656,7 +656,7 @@ export default function Home() {
             <div className="project-info">
               <div className="project-name">Tic Tac Toe</div>
               <p className="project-desc-short">
-                Classic game with a twist — challenge a friend or face an AI
+                Classic game with a twist ,  challenge a friend or face an AI
                 powered by the minimax algorithm.
               </p>
               <div className="project-tags">
