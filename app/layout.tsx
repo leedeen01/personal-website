@@ -22,9 +22,9 @@ const dmMono = DM_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://leedeen.dev"),
-  title: "Lee De En, Computer Science Student @ NUS",
+  title: "Lee De En, Software Engineer @ TOPPAN Ecquaria",
   description:
-    "Personal portfolio of Lee De En, a penultimate Computer Science student at the National University of Singapore.",
+    "Personal portfolio of Lee De En, a software engineer at TOPPAN Ecquaria and MSc Computer Science candidate at Georgia Tech.",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },

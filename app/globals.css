@@ -1030,6 +1030,23 @@ footer {
   content: "→ ";
   color: var(--accent);
 }
+/* The global `a` rule sets display:inline-block and line-height:1, which
+   breaks wrapping mid-sentence. Reset both so links flow as body copy. */
+.tl-content a,
+.sub-tl-content a {
+  display: inline;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(168, 168, 168, 0.35);
+  text-underline-offset: 0.2em;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+.tl-content a:hover,
+.sub-tl-content a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
 
 /* SUB-TIMELINE (nested inside NUS) */
 .sub-tl {

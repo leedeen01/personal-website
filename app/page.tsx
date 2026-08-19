@@ -3,15 +3,15 @@ export default function Home() {
     <main>
       {/* HERO */}
       <section id="home">
-        <p className="hero-eyebrow">CS @ NUS · Singapore</p>
+        <p className="hero-eyebrow">SWE @ TOPPAN Ecquaria · Singapore</p>
         <h1 className="hero-name">
           Lee
           <br />
           <span>De En.</span>
         </h1>
         <p className="hero-tagline">
-          Penultimate CS student building things at the intersection of web, ML,
-          and cloud.
+          Software engineer building things at the intersection of web, ML, and
+          cloud. Reading a Master&apos;s in CS at Georgia Tech.
         </p>
         <div className="hero-actions">
           <a href="#projects" className="btn-primary">
@@ -96,8 +96,9 @@ export default function Home() {
           <div className="about-text reveal">
             <p>
               I&apos;m a{" "}
-              <strong>penultimate Computer Science student at NUS</strong>, with
-              a strong foundation in algorithms, data structures, and software
+              <strong>Software Engineer at TOPPAN Ecquaria</strong>, reading a
+              Master&apos;s in Computer Science at Georgia Tech, with a strong
+              foundation in algorithms, data structures, and software
               development.
             </p>
             <p>
@@ -141,6 +142,9 @@ export default function Home() {
               </div>
               <div className="skill-item">
                 <span className="skill-dot"></span>PostgreSQL + PrismaORM
+              </div>
+              <div className="skill-item">
+                <span className="skill-dot"></span>Microsoft SQL Server
               </div>
               <div className="skill-item">
                 <span className="skill-dot"></span>Supabase / Firebase
@@ -382,7 +386,7 @@ export default function Home() {
                 <div className="tl-subtitle">
                   Bachelor of Computing (Honours) in Computer Science
                 </div>
-                <span className="tl-date">Aug 2023 – Jun 2026</span>
+                <span className="tl-date">Aug 2023 – Jul 2026</span>
                 <div className="tl-sub">
                   <span className="tl-badge edu">Education</span>
                   <span className="tl-badge intern" style={{ marginLeft: 0 }}>
@@ -402,12 +406,27 @@ export default function Home() {
             <div className="tl-body">
               <div className="tl-body-inner">
                 <div className="tl-content">
-                  Pursuing a Bachelor of Computing (Computer Science) at NUS,
-                  one of Asia&apos;s top-ranked universities.
+                  Graduated with a Bachelor of Computing (Computer Science)
+                  from NUS, one of Asia&apos;s top-ranked universities.
                   <ul>
                     <li>
-                      Specialising in algorithms, software engineering, and
-                      machine learning
+                      Graduated with Honours with Distinction, 4.3/5
+                    </li>
+                    <li>
+                      Awarded the Singapore-Industry Scholarship (SgIS), fully
+                      funding studies
+                    </li>
+                    <li>
+                      Specialised in the{" "}
+                      <a
+                        href="https://credentials.nus.edu.sg/5e6dadf3-e163-4599-a4c0-a20f557c2486"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Software Engineering Focus Area (Distinction)
+                      </a>
+                      , covering formal methods and software engineering
+                      principles &amp; patterns
                     </li>
                     <li>
                       Built full-stack projects spanning web, ML, and cloud
@@ -587,7 +606,7 @@ export default function Home() {
                       <div className="sub-tl-header">
                         <div className="sub-tl-info">
                           <span className="sub-tl-title">
-                            Toppan Ecquaria, SWE Intern
+                            TOPPAN Ecquaria, SWE Intern
                           </span>
                           <div className="sub-tl-sub">
                             <span className="tl-badge intern">Internship</span>
@@ -603,20 +622,28 @@ export default function Home() {
                       <div className="sub-tl-body">
                         <div className="sub-tl-body-inner">
                           <div className="sub-tl-content">
-                            Interned at Toppan Ecquaria, a digital government
-                            solutions company based in Singapore.
+                            Interned at <strong>TOPPAN Ecquaria</strong>, a
+                            digital government solutions company based in
+                            Singapore, on a large-scale ICA identity document
+                            collection project.
                             <ul>
                               <li>
-                                Worked on large-scale ICA identity collection
-                                project
+                                <strong>Backend Systems:</strong> Built RESTful
+                                APIs with <strong>Java Spring Boot</strong>,
+                                managing transactions through Spring JPA and
+                                Microsoft SQL Server for data consistency and
+                                persistence.
                               </li>
                               <li>
-                                Optimized backend systems using synchronization
-                                locks
+                                <strong>Concurrency:</strong> Optimized database
+                                concurrency in Microsoft SQL Server, resolving
+                                critical deadlock issues via strategic
+                                synchronization locks.
                               </li>
                               <li>
-                                Contributed to automated testing pipelines using
-                                Gherkins/Cucumber
+                                <strong>Test Automation:</strong> Accelerated QA
+                                and deployment pipelines with automated BDD
+                                suites written in Cucumber and Gherkin.
                               </li>
                               <li>
                                 Gained exposure to large-scale enterprise
@@ -628,6 +655,69 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* TOPPAN Ecquaria */}
+          <div className="tl-item reveal">
+            <div className="tl-header">
+              <div className="tl-meta">
+                <div className="tl-title">TOPPAN Ecquaria</div>
+                <div className="tl-subtitle">Software Engineer</div>
+                <span className="tl-date">Jun 2026 – Present</span>
+                <div className="tl-sub">
+                  <span className="tl-badge work">Full-time</span>
+                </div>
+              </div>
+              <div className="tl-toggle">
+                <svg viewBox="0 0 24 24">
+                  <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
+                </svg>
+              </div>
+            </div>
+            <div className="tl-body">
+              <div className="tl-body-inner">
+                <div className="tl-content">
+                  Returned to <strong>TOPPAN Ecquaria</strong> full-time after
+                  interning with the team, building digital government software
+                  and solving issues for the lawyers.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Georgia Tech */}
+          <div className="tl-item reveal">
+            <div className="tl-header">
+              <div className="tl-meta">
+                <div className="tl-title">Georgia Institute of Technology</div>
+                <div className="tl-subtitle">
+                  Master of Science in Computer Science (OMSCS)
+                </div>
+                <span className="tl-date">Aug 2026 – Present</span>
+                <div className="tl-sub">
+                  <span className="tl-badge edu">Education</span>
+                </div>
+              </div>
+              <div className="tl-toggle">
+                <svg viewBox="0 0 24 24">
+                  <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
+                </svg>
+              </div>
+            </div>
+            <div className="tl-body">
+              <div className="tl-body-inner">
+                <div className="tl-content">
+                  Reading a Master of Science in Computer Science at Georgia
+                  Tech alongside full-time engineering work.
+                  <ul>
+                    <li>
+                      Pursuing the Machine Learning and Computing Systems
+                      specialisations
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
