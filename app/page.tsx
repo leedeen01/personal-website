@@ -194,15 +194,15 @@ export default function Home() {
         </div>
 
         <div className="timeline-wrap">
-          {/* Singapore Polytechnic */}
+          {/* Georgia Tech */}
           <div className="tl-item reveal">
             <div className="tl-header">
               <div className="tl-meta">
-                <div className="tl-title">Singapore Polytechnic</div>
+                <div className="tl-title">Georgia Institute of Technology</div>
                 <div className="tl-subtitle">
-                  Diploma in Aerospace Engineering, School of EEE
+                  Master of Science in Computer Science (OMSCS)
                 </div>
-                <span className="tl-date">Apr 2018 – Apr 2021</span>
+                <span className="tl-date">Aug 2026 – Present</span>
                 <div className="tl-sub">
                   <span className="tl-badge edu">Education</span>
                 </div>
@@ -216,54 +216,323 @@ export default function Home() {
             <div className="tl-body">
               <div className="tl-body-inner">
                 <div className="tl-content">
-                  Completed my Diploma at the **School of Electrical and
-                  Electronic Engineering (EEE)**, bridging the gap between
-                  hardware systems and software logic.
+                  Reading a Master of Science in Computer Science at Georgia
+                  Tech alongside full-time engineering work.
                   <ul>
                     <li>
-                      <strong>
-                        Diploma in Aerospace Electronics (Graduated with Merit)
-                      </strong>
-                    </li>
-                    <li>
-                      <strong>Academic Excellence:</strong> Achieved a
-                      Cumulative <strong>GPA of 3.885 / 4.0</strong>, earning
-                      Distinctions in core modules like{" "}
-                      <em>Structured Programming</em> and{" "}
-                      <em>Microcontroller Applications</em>.
-                    </li>
-                    <li>
-                      <strong>Engineering Foundation:</strong> Specialized in
-                      avionics systems, digital electronics, and complex
-                      hardware-software integration.
+                      Pursuing the Machine Learning and Computing Systems
+                      specialisations
                     </li>
                   </ul>
-                  <div
-                    style={{
-                      display: "flex",
-                      gap: "1rem",
-                      marginTop: "1.5rem",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    <a
-                      href="/assets/SP/Diploma_Certificate.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-ghost"
-                      style={{ fontSize: "0.65rem", padding: "0.5rem 1rem" }}
-                    >
-                      <span>📄 View Diploma Cert</span>
-                    </a>
-                    <a
-                      href="/assets/SP/SP_Exam_Result.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-ghost"
-                      style={{ fontSize: "0.65rem", padding: "0.5rem 1rem" }}
-                    >
-                      <span>📊 View Full Transcript</span>
-                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* TOPPAN Ecquaria */}
+          <div className="tl-item reveal">
+            <div className="tl-header">
+              <div className="tl-meta">
+                <div className="tl-title">TOPPAN Ecquaria</div>
+                <div className="tl-subtitle">Software Engineer</div>
+                <span className="tl-date">Jun 2026 – Present</span>
+                <div className="tl-sub">
+                  <span className="tl-badge work">Full-time</span>
+                </div>
+              </div>
+              <div className="tl-toggle">
+                <svg viewBox="0 0 24 24">
+                  <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
+                </svg>
+              </div>
+            </div>
+            <div className="tl-body">
+              <div className="tl-body-inner">
+                <div className="tl-content">
+                  Returned to <strong>TOPPAN Ecquaria</strong> full-time after
+                  interning with the team, building digital government software
+                  and solving issues for the lawyers.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* NUS */}
+          <div className="tl-item reveal">
+            <div className="tl-header">
+              <div className="tl-meta">
+                <div className="tl-title">National University of Singapore</div>
+                <div className="tl-subtitle">
+                  Bachelor of Computing (Honours) in Computer Science
+                </div>
+                <span className="tl-date">Aug 2023 – Jul 2026</span>
+                <div className="tl-sub">
+                  <span className="tl-badge edu">Education</span>
+                  <span className="tl-badge intern" style={{ marginLeft: 0 }}>
+                    2× Internships
+                  </span>
+                  <span className="tl-badge exchange" style={{ marginLeft: 0 }}>
+                    2× Exchanges
+                  </span>
+                </div>
+              </div>
+              <div className="tl-toggle">
+                <svg viewBox="0 0 24 24">
+                  <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
+                </svg>
+              </div>
+            </div>
+            <div className="tl-body">
+              <div className="tl-body-inner">
+                <div className="tl-content">
+                  Graduated with a Bachelor of Computing (Computer Science)
+                  from NUS, one of Asia&apos;s top-ranked universities.
+                  <ul>
+                    <li>
+                      Graduated with Honours with Distinction, 4.3/5
+                    </li>
+                    <li>
+                      Awarded the Singapore-Industry Scholarship (SgIS), fully
+                      funding studies
+                    </li>
+                    <li>
+                      Specialised in the{" "}
+                      <a
+                        href="https://credentials.nus.edu.sg/5e6dadf3-e163-4599-a4c0-a20f557c2486"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Software Engineering Focus Area (Distinction)
+                      </a>
+                      , covering formal methods and software engineering
+                      principles &amp; patterns
+                    </li>
+                    <li>
+                      Built full-stack projects spanning web, ML, and cloud
+                      infrastructure
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="sub-tl">
+                  <div className="sub-tl-label">{"//"} During NUS</div>
+
+                  {/* Toppan Ecquaria */}
+                  <div className="sub-tl-item">
+                    <div className="sub-tl-dot"></div>
+                    <div className="sub-tl-main">
+                      <div className="sub-tl-header">
+                        <div className="sub-tl-info">
+                          <span className="sub-tl-title">
+                            TOPPAN Ecquaria, SWE Intern
+                          </span>
+                          <div className="sub-tl-sub">
+                            <span className="tl-badge intern">Internship</span>
+                            <span className="tl-date">Dec 2025 – Jan 2026</span>
+                          </div>
+                        </div>
+                        <div className="sub-tl-toggle">
+                          <svg viewBox="0 0 24 24">
+                            <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="sub-tl-body">
+                        <div className="sub-tl-body-inner">
+                          <div className="sub-tl-content">
+                            Interned at <strong>TOPPAN Ecquaria</strong>, a
+                            digital government solutions company based in
+                            Singapore, on a large-scale ICA identity document
+                            collection project.
+                            <ul>
+                              <li>
+                                <strong>Backend Systems:</strong> Built RESTful
+                                APIs with <strong>Java Spring Boot</strong>,
+                                managing transactions through Spring JPA and
+                                Microsoft SQL Server for data consistency and
+                                persistence.
+                              </li>
+                              <li>
+                                <strong>Concurrency:</strong> Optimized database
+                                concurrency in Microsoft SQL Server, resolving
+                                critical deadlock issues via strategic
+                                synchronization locks.
+                              </li>
+                              <li>
+                                <strong>Test Automation:</strong> Accelerated QA
+                                and deployment pipelines with automated BDD
+                                suites written in Cucumber and Gherkin.
+                              </li>
+                              <li>
+                                Gained exposure to large-scale enterprise
+                                software delivery processes
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* UT Austin */}
+                  <div className="sub-tl-item">
+                    <div className="sub-tl-dot"></div>
+                    <div className="sub-tl-main">
+                      <div className="sub-tl-header">
+                        <div className="sub-tl-info">
+                          <span className="sub-tl-title">
+                            The University of Texas At Austin, Exchange
+                          </span>
+                          <div className="sub-tl-sub">
+                            <span className="tl-badge exchange">Exchange</span>
+                            <span className="tl-date">Aug 2025 – Dec 2025</span>
+                          </div>
+                        </div>
+                        <div className="sub-tl-toggle">
+                          <svg viewBox="0 0 24 24">
+                            <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="sub-tl-body">
+                        <div className="sub-tl-body-inner">
+                          <div className="sub-tl-content">
+                            <p>
+                              Selected for a Semester Exchange at the{" "}
+                              <strong>University of Texas at Austin</strong>,
+                              ranked among the top 10 Computer Science programs
+                              in the U.S.
+                            </p>
+                            <ul>
+                              <li>
+                                <strong>Advanced Coursework:</strong> Focused on
+                                the intersection of Systems and AI, achieving
+                                deep technical competency in:
+                                <ul className="nested-list">
+                                  <li>
+                                    <em>AI &amp; Vision:</em> Natural Language
+                                    Processing (CS 371N), Generative Visual
+                                    Computing (CS 378)
+                                  </li>
+                                  <li>
+                                    <em>Systems &amp; Data:</em> Algorithms (ECE
+                                    360C), Web App Development (MIS 333K), Intro
+                                    to Data Science (STA 301)
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                <strong>Technical Immersion:</strong> Engaged
+                                with Austin&apos;s &quot;Silicon Hills&quot;
+                                ecosystem, exploring emerging trends in the
+                                startup and venture capital landscape.
+                              </li>
+                              <li>
+                                <strong>Global Networking:</strong> Collaborated
+                                on high-intensity projects with diverse
+                                engineering teams, fostering a global
+                                perspective on software architecture.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Phillip Capital */}
+                  <div className="sub-tl-item">
+                    <div className="sub-tl-dot"></div>
+                    <div className="sub-tl-main">
+                      <div className="sub-tl-header">
+                        <div className="sub-tl-info">
+                          <span className="sub-tl-title">
+                            Phillip Capital, SWE Intern
+                          </span>
+                          <div className="sub-tl-sub">
+                            <span className="tl-badge intern">Internship</span>
+                            <span className="tl-date">May 2025 – Aug 2025</span>
+                          </div>
+                        </div>
+                        <div className="sub-tl-toggle">
+                          <svg viewBox="0 0 24 24">
+                            <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="sub-tl-body">
+                        <div className="sub-tl-body-inner">
+                          <div className="sub-tl-content">
+                            Interned at <strong>PhillipCapital</strong>, a
+                            global financial services group, contributing to a
+                            high-stakes blockchain-based remittance platform.
+                            <ul>
+                              <li>
+                                <strong>Distributed Architecture:</strong>{" "}
+                                Developed modular microservices using{" "}
+                                <strong>NestJS</strong>, implementing Clean
+                                Architecture and Dependency Injection.
+                              </li>
+                              <li>
+                                <strong>Event-Driven Systems:</strong>{" "}
+                                Integrated <strong>RabbitMQ</strong> for
+                                asynchronous messaging and{" "}
+                                <strong>Redis</strong> for distributed caching.
+                              </li>
+                              <li>
+                                <strong>Data Integrity:</strong> Designed robust{" "}
+                                <strong>PostgreSQL</strong> schemas via ORM,
+                                prioritizing transactional integrity.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* KU */}
+                  <div className="sub-tl-item">
+                    <div className="sub-tl-dot"></div>
+                    <div className="sub-tl-main">
+                      <div className="sub-tl-header">
+                        <div className="sub-tl-info">
+                          <span className="sub-tl-title">
+                            Korea University, Exchange
+                          </span>
+                          <div className="sub-tl-sub">
+                            <span className="tl-badge exchange">Exchange</span>
+                            <span className="tl-date">Dec 2024 – Jan 2025</span>
+                          </div>
+                        </div>
+                        <div className="sub-tl-toggle">
+                          <svg viewBox="0 0 24 24">
+                            <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="sub-tl-body">
+                        <div className="sub-tl-body-inner">
+                          <div className="sub-tl-content">
+                            Short-term winter exchange at Korea University,
+                            Seoul: broadening academic and cultural horizons.
+                            <ul>
+                              <li>
+                                Attended intensive CS and technology courses
+                              </li>
+                              <li>
+                                Engaged with a diverse international student
+                                community
+                              </li>
+                              <li>
+                                Explored Seoul&apos;s thriving tech ecosystem
+                                and startup culture
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -378,325 +647,15 @@ export default function Home() {
             </div>
           </div>
 
-          {/* NUS */}
+          {/* Singapore Polytechnic */}
           <div className="tl-item reveal">
             <div className="tl-header">
               <div className="tl-meta">
-                <div className="tl-title">National University of Singapore</div>
+                <div className="tl-title">Singapore Polytechnic</div>
                 <div className="tl-subtitle">
-                  Bachelor of Computing (Honours) in Computer Science
+                  Diploma in Aerospace Engineering, School of EEE
                 </div>
-                <span className="tl-date">Aug 2023 – Jul 2026</span>
-                <div className="tl-sub">
-                  <span className="tl-badge edu">Education</span>
-                  <span className="tl-badge intern" style={{ marginLeft: 0 }}>
-                    2× Internships
-                  </span>
-                  <span className="tl-badge exchange" style={{ marginLeft: 0 }}>
-                    2× Exchanges
-                  </span>
-                </div>
-              </div>
-              <div className="tl-toggle">
-                <svg viewBox="0 0 24 24">
-                  <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
-                </svg>
-              </div>
-            </div>
-            <div className="tl-body">
-              <div className="tl-body-inner">
-                <div className="tl-content">
-                  Graduated with a Bachelor of Computing (Computer Science)
-                  from NUS, one of Asia&apos;s top-ranked universities.
-                  <ul>
-                    <li>
-                      Graduated with Honours with Distinction, 4.3/5
-                    </li>
-                    <li>
-                      Awarded the Singapore-Industry Scholarship (SgIS), fully
-                      funding studies
-                    </li>
-                    <li>
-                      Specialised in the{" "}
-                      <a
-                        href="https://credentials.nus.edu.sg/5e6dadf3-e163-4599-a4c0-a20f557c2486"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Software Engineering Focus Area (Distinction)
-                      </a>
-                      , covering formal methods and software engineering
-                      principles &amp; patterns
-                    </li>
-                    <li>
-                      Built full-stack projects spanning web, ML, and cloud
-                      infrastructure
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="sub-tl">
-                  <div className="sub-tl-label">{"//"} During NUS</div>
-
-                  {/* KU */}
-                  <div className="sub-tl-item">
-                    <div className="sub-tl-dot"></div>
-                    <div className="sub-tl-main">
-                      <div className="sub-tl-header">
-                        <div className="sub-tl-info">
-                          <span className="sub-tl-title">
-                            Korea University, Exchange
-                          </span>
-                          <div className="sub-tl-sub">
-                            <span className="tl-badge exchange">Exchange</span>
-                            <span className="tl-date">Dec 2024 – Jan 2025</span>
-                          </div>
-                        </div>
-                        <div className="sub-tl-toggle">
-                          <svg viewBox="0 0 24 24">
-                            <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
-                          </svg>
-                        </div>
-                      </div>
-                      <div className="sub-tl-body">
-                        <div className="sub-tl-body-inner">
-                          <div className="sub-tl-content">
-                            Short-term winter exchange at Korea University,
-                            Seoul: broadening academic and cultural horizons.
-                            <ul>
-                              <li>
-                                Attended intensive CS and technology courses
-                              </li>
-                              <li>
-                                Engaged with a diverse international student
-                                community
-                              </li>
-                              <li>
-                                Explored Seoul&apos;s thriving tech ecosystem
-                                and startup culture
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Phillip Capital */}
-                  <div className="sub-tl-item">
-                    <div className="sub-tl-dot"></div>
-                    <div className="sub-tl-main">
-                      <div className="sub-tl-header">
-                        <div className="sub-tl-info">
-                          <span className="sub-tl-title">
-                            Phillip Capital, SWE Intern
-                          </span>
-                          <div className="sub-tl-sub">
-                            <span className="tl-badge intern">Internship</span>
-                            <span className="tl-date">May 2025 – Aug 2025</span>
-                          </div>
-                        </div>
-                        <div className="sub-tl-toggle">
-                          <svg viewBox="0 0 24 24">
-                            <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
-                          </svg>
-                        </div>
-                      </div>
-                      <div className="sub-tl-body">
-                        <div className="sub-tl-body-inner">
-                          <div className="sub-tl-content">
-                            Interned at <strong>PhillipCapital</strong>, a
-                            global financial services group, contributing to a
-                            high-stakes blockchain-based remittance platform.
-                            <ul>
-                              <li>
-                                <strong>Distributed Architecture:</strong>{" "}
-                                Developed modular microservices using{" "}
-                                <strong>NestJS</strong>, implementing Clean
-                                Architecture and Dependency Injection.
-                              </li>
-                              <li>
-                                <strong>Event-Driven Systems:</strong>{" "}
-                                Integrated <strong>RabbitMQ</strong> for
-                                asynchronous messaging and{" "}
-                                <strong>Redis</strong> for distributed caching.
-                              </li>
-                              <li>
-                                <strong>Data Integrity:</strong> Designed robust{" "}
-                                <strong>PostgreSQL</strong> schemas via ORM,
-                                prioritizing transactional integrity.
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* UT Austin */}
-                  <div className="sub-tl-item">
-                    <div className="sub-tl-dot"></div>
-                    <div className="sub-tl-main">
-                      <div className="sub-tl-header">
-                        <div className="sub-tl-info">
-                          <span className="sub-tl-title">
-                            The University of Texas At Austin, Exchange
-                          </span>
-                          <div className="sub-tl-sub">
-                            <span className="tl-badge exchange">Exchange</span>
-                            <span className="tl-date">Aug 2025 – Dec 2025</span>
-                          </div>
-                        </div>
-                        <div className="sub-tl-toggle">
-                          <svg viewBox="0 0 24 24">
-                            <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
-                          </svg>
-                        </div>
-                      </div>
-                      <div className="sub-tl-body">
-                        <div className="sub-tl-body-inner">
-                          <div className="sub-tl-content">
-                            <p>
-                              Selected for a Semester Exchange at the{" "}
-                              <strong>University of Texas at Austin</strong>,
-                              ranked among the top 10 Computer Science programs
-                              in the U.S.
-                            </p>
-                            <ul>
-                              <li>
-                                <strong>Advanced Coursework:</strong> Focused on
-                                the intersection of Systems and AI, achieving
-                                deep technical competency in:
-                                <ul className="nested-list">
-                                  <li>
-                                    <em>AI &amp; Vision:</em> Natural Language
-                                    Processing (CS 371N), Generative Visual
-                                    Computing (CS 378)
-                                  </li>
-                                  <li>
-                                    <em>Systems &amp; Data:</em> Algorithms (ECE
-                                    360C), Web App Development (MIS 333K), Intro
-                                    to Data Science (STA 301)
-                                  </li>
-                                </ul>
-                              </li>
-                              <li>
-                                <strong>Technical Immersion:</strong> Engaged
-                                with Austin&apos;s &quot;Silicon Hills&quot;
-                                ecosystem, exploring emerging trends in the
-                                startup and venture capital landscape.
-                              </li>
-                              <li>
-                                <strong>Global Networking:</strong> Collaborated
-                                on high-intensity projects with diverse
-                                engineering teams, fostering a global
-                                perspective on software architecture.
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Toppan Ecquaria */}
-                  <div className="sub-tl-item">
-                    <div className="sub-tl-dot"></div>
-                    <div className="sub-tl-main">
-                      <div className="sub-tl-header">
-                        <div className="sub-tl-info">
-                          <span className="sub-tl-title">
-                            TOPPAN Ecquaria, SWE Intern
-                          </span>
-                          <div className="sub-tl-sub">
-                            <span className="tl-badge intern">Internship</span>
-                            <span className="tl-date">Dec 2025 – Jan 2026</span>
-                          </div>
-                        </div>
-                        <div className="sub-tl-toggle">
-                          <svg viewBox="0 0 24 24">
-                            <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
-                          </svg>
-                        </div>
-                      </div>
-                      <div className="sub-tl-body">
-                        <div className="sub-tl-body-inner">
-                          <div className="sub-tl-content">
-                            Interned at <strong>TOPPAN Ecquaria</strong>, a
-                            digital government solutions company based in
-                            Singapore, on a large-scale ICA identity document
-                            collection project.
-                            <ul>
-                              <li>
-                                <strong>Backend Systems:</strong> Built RESTful
-                                APIs with <strong>Java Spring Boot</strong>,
-                                managing transactions through Spring JPA and
-                                Microsoft SQL Server for data consistency and
-                                persistence.
-                              </li>
-                              <li>
-                                <strong>Concurrency:</strong> Optimized database
-                                concurrency in Microsoft SQL Server, resolving
-                                critical deadlock issues via strategic
-                                synchronization locks.
-                              </li>
-                              <li>
-                                <strong>Test Automation:</strong> Accelerated QA
-                                and deployment pipelines with automated BDD
-                                suites written in Cucumber and Gherkin.
-                              </li>
-                              <li>
-                                Gained exposure to large-scale enterprise
-                                software delivery processes
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* TOPPAN Ecquaria */}
-          <div className="tl-item reveal">
-            <div className="tl-header">
-              <div className="tl-meta">
-                <div className="tl-title">TOPPAN Ecquaria</div>
-                <div className="tl-subtitle">Software Engineer</div>
-                <span className="tl-date">Jun 2026 – Present</span>
-                <div className="tl-sub">
-                  <span className="tl-badge work">Full-time</span>
-                </div>
-              </div>
-              <div className="tl-toggle">
-                <svg viewBox="0 0 24 24">
-                  <path d="M19 11H13V5h-2v6H5v2h6v6h2v-6h6z" />
-                </svg>
-              </div>
-            </div>
-            <div className="tl-body">
-              <div className="tl-body-inner">
-                <div className="tl-content">
-                  Returned to <strong>TOPPAN Ecquaria</strong> full-time after
-                  interning with the team, building digital government software
-                  and solving issues for the lawyers.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Georgia Tech */}
-          <div className="tl-item reveal">
-            <div className="tl-header">
-              <div className="tl-meta">
-                <div className="tl-title">Georgia Institute of Technology</div>
-                <div className="tl-subtitle">
-                  Master of Science in Computer Science (OMSCS)
-                </div>
-                <span className="tl-date">Aug 2026 – Present</span>
+                <span className="tl-date">Apr 2018 – Apr 2021</span>
                 <div className="tl-sub">
                   <span className="tl-badge edu">Education</span>
                 </div>
@@ -710,14 +669,55 @@ export default function Home() {
             <div className="tl-body">
               <div className="tl-body-inner">
                 <div className="tl-content">
-                  Reading a Master of Science in Computer Science at Georgia
-                  Tech alongside full-time engineering work.
+                  Completed my Diploma at the **School of Electrical and
+                  Electronic Engineering (EEE)**, bridging the gap between
+                  hardware systems and software logic.
                   <ul>
                     <li>
-                      Pursuing the Machine Learning and Computing Systems
-                      specialisations
+                      <strong>
+                        Diploma in Aerospace Electronics (Graduated with Merit)
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>Academic Excellence:</strong> Achieved a
+                      Cumulative <strong>GPA of 3.885 / 4.0</strong>, earning
+                      Distinctions in core modules like{" "}
+                      <em>Structured Programming</em> and{" "}
+                      <em>Microcontroller Applications</em>.
+                    </li>
+                    <li>
+                      <strong>Engineering Foundation:</strong> Specialized in
+                      avionics systems, digital electronics, and complex
+                      hardware-software integration.
                     </li>
                   </ul>
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "1rem",
+                      marginTop: "1.5rem",
+                      flexWrap: "wrap",
+                    }}
+                  >
+                    <a
+                      href="/assets/SP/Diploma_Certificate.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-ghost"
+                      style={{ fontSize: "0.65rem", padding: "0.5rem 1rem" }}
+                    >
+                      <span>📄 View Diploma Cert</span>
+                    </a>
+                    <a
+                      href="/assets/SP/SP_Exam_Result.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-ghost"
+                      style={{ fontSize: "0.65rem", padding: "0.5rem 1rem" }}
+                    >
+                      <span>📊 View Full Transcript</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
