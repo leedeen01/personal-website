@@ -36,7 +36,7 @@ export function getPostSlugs(): string[] {
         if (file.endsWith('.mdx')) {
           // Store slug as "category/filename" if needed, 
           // or just filename if your [slug] logic is flat
-          slugs.push(file.replace('.mdx', ''));
+          slugs.push(file.replace(/\.mdx$/, ''));
         }
       });
     }
@@ -95,7 +95,7 @@ export function getAllPosts(): Post[] {
       
       files.forEach((file) => {
         if (file.endsWith('.mdx')) {
-          const post = getPostBySlug(file.replace('.mdx', ''));
+          const post = getPostBySlug(file.replace(/\.mdx$/, ''));
           allPosts.push(post);
         }
       });

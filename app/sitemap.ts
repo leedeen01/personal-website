@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getPostSlugs } from '@/lib/mdx';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://leedeen.me'; // Replace with your actual domain
+  const baseUrl = 'https://leedeen.dev';
 
   // 1. Get all your dynamic blog slugs
   const blogSlugs = getPostSlugs();

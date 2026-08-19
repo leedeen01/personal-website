@@ -60,27 +60,28 @@ export default async function Post({ params }: PageProps) {
     return notFound();
   }
 
+  // Frontmatter category wins, falling back to the directory name (see lib/mdx.ts)
+  const category = (post.meta.category as string) || post.category;
+
   // LOGIC: Fetch related posts in the same category
   const allPosts = getAllPosts();
   const relatedPosts = allPosts
-    .filter((p) => p.meta.category === post.meta.category && p.slug !== slug)
-    .slice(0, 2); 
+    .filter((p) => ((p.meta.category as string) || p.category) === category && p.slug !== slug)
+    .slice(0, 2);
 
   const mdxOptions = {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypeHighlight], 
   };
 
-  const categoryClass = typeof post.meta.category === 'string' 
-    ? post.meta.category.toLowerCase() 
-    : '';
+  const categoryClass = category ? styles[category.toLowerCase()] ?? '' : '';
 
   return (
     <article className={`${styles.article} reveal visible`}>
       <header className={styles.header}>
-        {post.meta.category && (
-          <span className={`${styles.categoryBadge} ${styles[categoryClass]}`}>
-            {`// ${post.meta.category}`}
+        {category && (
+          <span className={`${styles.categoryBadge} ${categoryClass}`}>
+            {`// ${category}`}
           </span>
         )}
         
@@ -121,7 +122,7 @@ export default async function Post({ params }: PageProps) {
                   className={styles.relatedCard}
                 >
                   <span className={styles.relatedDate}>
-                    {new Date(related.meta.date).toLocaleDateString('en-SG', { month: 'short', year: 'numeric' })}
+                    {new Date(related.meta.date).toLocaleDateString('en-SG', { month: 'short', year: 'numeric', timeZone: 'UTC' })}
                   </span>
                   <h4 className={styles.relatedPostTitle}>{related.meta.title}</h4>
                   <p className={styles.relatedDesc}>

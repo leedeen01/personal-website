@@ -45,9 +45,10 @@ export default function BlogListClient({ initialPosts }: { initialPosts: PostEnt
           filteredPosts.map((post) => (
             <Link href={`/blog/${post.slug}`} key={post.slug} className="project-row">
               <span className="project-index">
-                {new Date(post.date).toLocaleDateString('en-SG', { 
-                  month: 'short', 
-                  year: 'numeric' 
+                {new Date(post.date).toLocaleDateString('en-SG', {
+                  month: 'short',
+                  year: 'numeric',
+                  timeZone: 'UTC',
                 })}
               </span>
               <div className="project-info">

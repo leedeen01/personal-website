@@ -21,6 +21,7 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://leedeen.dev"),
   title: "Lee De En, Computer Science Student @ NUS",
   description:
     "Personal portfolio of Lee De En, a penultimate Computer Science student at the National University of Singapore.",

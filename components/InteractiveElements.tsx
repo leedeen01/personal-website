@@ -140,7 +140,11 @@ export default function InteractiveElements() {
       <div className="grid-bg"></div>
 
       <nav>
-        <Link href="/#home" className="nav-logo"> &lt;/LeeDeEn&gt; </Link>
+        <Link
+          href="/#home"
+          className="nav-logo"
+          onClick={() => setIsMobileMenuOpen(false)}
+        > &lt;/LeeDeEn&gt; </Link>
 
         <div 
           className={`mobile-menu-btn ${isMobileMenuOpen ? 'active' : ''}`} 

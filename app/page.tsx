@@ -42,6 +42,7 @@ export default function Home() {
           <a
             href="https://github.com/leedeen01"
             target="_blank"
+            rel="noopener noreferrer"
             className="social-icon-link"
             title="GitHub"
           >
@@ -53,6 +54,7 @@ export default function Home() {
           <a
             href="https://www.linkedin.com/in/leedeen/"
             target="_blank"
+            rel="noopener noreferrer"
             className="social-icon-link"
             title="LinkedIn"
           >
@@ -64,6 +66,7 @@ export default function Home() {
           <a
             href="https://www.instagram.com/leedeen_/"
             target="_blank"
+            rel="noopener noreferrer"
             className="social-icon-link"
             title="Instagram"
           >
@@ -650,6 +653,7 @@ export default function Home() {
           <a
             href="https://leedeen01.github.io/tic-tac-toe/"
             target="_blank"
+            rel="noopener noreferrer"
             className="project-row reveal"
           >
             <span className="project-index">001</span>
@@ -669,6 +673,7 @@ export default function Home() {
           <a
             href="https://main--trackspence.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
             className="project-row reveal"
           >
             <span className="project-index">002</span>
